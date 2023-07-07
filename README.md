@@ -34,9 +34,11 @@ some companies, they speak on their personal behalf and do not represent
 these companies.
 
 # References
-* The Rise of the Metadata Lake, Prukalpa, Jun. 2021:
+* The Rise of the Metadata Lake,
+  [Prukalpa](https://prukalpa.medium.com/), Jun. 2021:
   https://towardsdatascience.com/the-rise-of-the-metadata-lake-1e95127594de
-* The anatomy of an active metadata platform, Prukalpa, Aug. 2021:
+* The anatomy of an active metadata platform,
+  [Prukalpa](https://prukalpa.medium.com/), Aug. 2021:
   https://towardsdatascience.com/the-anatomy-of-an-active-metadata-platform-13473091ad0d
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
@@ -86,12 +88,19 @@ generate provenance metadata.
 * Open source: yes
 
 DataHub is an open-source metadata platform for the modern data stack.
-Read about the architectures of different metadata systems and why DataHub
-excels here. Also read the LinkedIn Engineering blog post, check out
-the Strata presentation and watch our Crunch Conference Talk. You should
-also visit DataHub Architecture to get a better understanding of how DataHub
-is implemented and DataHub Onboarding Guide to understand how to extend
-DataHub for your own use cases.
+Read about the architectures of different metadata systems and
+[why DataHub excels](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained).
+Also read
+[the LinkedIn Engineering blog post](https://engineering.linkedin.com/blog/2019/data-hub),
+check out
+[the Strata presentation](https://speakerdeck.com/shirshanka/the-evolution-of-metadata-linkedins-journey-strata-nyc-2019)
+and watch
+[the Crunch Conference Talk](https://www.youtube.com/watch?v=OB-O0Y6OYDE).
+You should also visit
+[DataHub Architecture](https://github.com/linkedin/datahub/blob/master/docs/architecture/architecture.md)
+to get a better understanding of how DataHub is implemented and
+[DataHub Onboarding Guide](https://github.com/linkedin/datahub/blob/master/docs/modeling/extending-the-metadata-model.md)
+to understand how to extend DataHub for your own use cases.
 
 ## Open Metadata
 * Moto: "A Single place to Discover, Collaborate, and Get your data right"
@@ -103,7 +112,7 @@ DataHub for your own use cases.
 
 ## Marquez
 * GitHub: https://github.com/MarquezProject/marquez
-* Organization behind: WeWork / Datakin
+* Organization behind: [WeWork](https://www.wework.com/) / Datakin
 * Open source: yes
 
 Marquez is an open source metadata service for the collection, aggregation,
@@ -111,7 +120,8 @@ and visualization of a data ecosystem's metadata, going together
 with OpenLineage (see below). It maintains the provenance of how datasets
 are consumed and produced, provides global visibility into job runtime
 and frequency of dataset access, centralization of dataset lifecycle
-management, and much more. Marquez was released and open sourced by WeWork.
+management, and much more. Marquez was released and open sourced by
+[WeWork](https://www.wework.com/).
 
 ## OpenLineage
 * Home page: http://openlineage.io/
@@ -144,7 +154,8 @@ when interacting with data. It does that today by indexing data
 resources (tables, dashboards, streams, etc.) and powering a page-rank
 style search based on usage patterns (e.g. highly queried tables show up
 earlier than less queried tables). Think of it as Google search for data.
-The project is named after Norwegian explorer Roald Amundsen,
+The project is named after Norwegian explorer
+[Roald Amundsen](https://en.wikipedia.org/wiki/Roald_Amundsen),
 the first person to discover the South Pole.
 
 ## Egeria
