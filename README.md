@@ -42,8 +42,9 @@ these companies.
   https://towardsdatascience.com/the-anatomy-of-an-active-metadata-platform-13473091ad0d
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
-* [Material for Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
+* [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
+* [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
   + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
