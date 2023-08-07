@@ -18,6 +18,9 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Nemo](#nemo)
   * [Dataportal](#dataportal)
   * [Metacat](#metacat)
+* [Tools](#tools)
+  * [SQL parsers](#sql-parsers)
+    * [GitSchemas](#gitschemas)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -201,4 +204,14 @@ but has not been open sourced so far.
 * Medium: https://netflixtechblog.com/metacat-making-big-data-discoverable-and-meaningful-at-netflix-56fb36a53520
 * Company behind: Netflix
 * Open source: ?
+
+# Tools
+
+## SQL parsers
+
+### GitSchemas
+* GitHub/home page: https://github.com/tdoehmen/gitschemas
+* That project features scripts to crawl SQL-files from GitHub, parse them and extract
+ structured database schema information from them. The goal is to learn about the semantics
+ of database tables in the wild (table names, column names, foreign key relations etc.)
 
