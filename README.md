@@ -18,6 +18,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Nemo](#nemo)
   * [Dataportal](#dataportal)
   * [Metacat](#metacat)
+  * [Hive Metastore](#hive-metastore)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
     * [GitSchemas](#gitschemas)
@@ -204,6 +205,10 @@ but has not been open sourced so far.
 * Medium: https://netflixtechblog.com/metacat-making-big-data-discoverable-and-meaningful-at-netflix-56fb36a53520
 * Company behind: Netflix
 * Open source: ?
+
+## Hive Metastore
+* Moto:
+* 
 
 # Tools
 
