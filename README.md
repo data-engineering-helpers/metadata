@@ -18,6 +18,8 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Nemo](#nemo)
   * [Dataportal](#dataportal)
   * [Metacat](#metacat)
+  * [Nessie](#nessie)
+  * [Iceberg catalogs](#iceberg-catalogs)
   * [Hive Metastore](#hive-metastore)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
@@ -174,7 +176,6 @@ no matter the vendor"
 * GitHub: https://github.com/odpi/egeria
 * Open source: yes
 
-
 ## Databook
 * Moto: "Turning Big Data into Knowledge with Metadata at Uber"
 
@@ -207,9 +208,47 @@ but has not been open sourced so far.
 * Company behind: Netflix
 * Open source: ?
 
+## Nessie
+* Home page: https://projectnessie.org/
+* GitHub: https://github.com/projectnessie/nessie
+* Open source: yes
+
+* Overview: transactional Catalog for Data Lakes
+  + Git-inspired data version control
+  + Cross-table transactions and visibility
+  + Open data lake approach, supporting Hive, Spark, Dremio, AWS Athena, etc.
+  + Works with Apache Iceberg tables
+  + Run as a docker image or fork it on GitHub
+
+## Iceberg catalogs
+* Home page: https://iceberg.apache.org/concepts/catalog/
+* Iceberg REST catalog OpenAPI specification: https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml
+* Open source: yes
+* Iceberg was initially contributed by Netflix
+
+* Overview: You may think of Iceberg as a format for managing data in a single table,
+  but the Iceberg library needs a way to keep track of those tables by name. Tasks like
+  creating, dropping, and renaming tables are the responsibility of a catalog. Catalogs
+  manage a collection of tables that are usually grouped into namespaces. The most important
+  responsibility of a catalog is tracking a table’s current metadata, which is provided
+  by the catalog when you load a table.
+  Iceberg catalogs are flexible and can be implemented using almost any backend system.
+  They can be plugged into any Iceberg runtime, and allow any processing engine that supports
+  Iceberg to load the tracked Iceberg tables. Iceberg also comes with a number of catalog
+  implementations that are ready to use out of the box.
+  This includes:
+  + REST - a server-side catalog that’s exposed through a REST API
+  + Hive Metastore - tracks namespaces and tables using a Hive metastore
+  + JDBC - tracks namespaces and tables in a simple JDBC database
+  + Nessie - a transactional catalog that tracks namespaces and tables in a database with git-like version control
+
 ## Hive Metastore
-* Moto:
-* 
+* Home page (part of the Hive documentation on the Apache wiki): https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore
+* GitHub (part of the Hive repository on GitHub): https://github.com/apache/hive/tree/master/metastore
+* Open source: yes
+  [Apache wiki - AdminManual Metastore 3.0 Administration](https://cwiki.apache.org/confluence/display/Hive/AdminManual+Metastore+3.0+Administration)
+* Articles:
+  + [Hive Metastore – Different Ways to Configure Hive Metastore](https://data-flair.training/blogs/apache-hive-metastore/)
 
 # Tools
 
