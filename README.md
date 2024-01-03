@@ -28,7 +28,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 # Overview
 [This project](https://github.com/data-engineering-helpers/metadata)
 intends to collect, analyze and synthetize referential material
-about metadata, in order to facilitate the implementaing of metadatalakes.
+about metadata, in order to facilitate the implementing of metadatalakes.
 That is, this project is a first contribution to a
 Modern Metadatalake Stack (MMS), much like the initiatives around the rise
 of the Modern Data Stack (MDS).
@@ -46,6 +46,7 @@ these companies.
   https://towardsdatascience.com/the-anatomy-of-an-active-metadata-platform-13473091ad0d
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
+* [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
 * [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
 * [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
