@@ -8,6 +8,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
 * [Introduction](#introduction)
 * [Frameworks](#frameworks)
   * [DataHub](#datahub)
+  * [Metaphor](#metaphor)
   * [Open Metadata](#open-metadata)
   * [Marquez](#marquez)
   * [OpenLineage](#openlineage)
@@ -109,6 +110,23 @@ You should also visit
 to get a better understanding of how DataHub is implemented and
 [DataHub Onboarding Guide](https://github.com/linkedin/datahub/blob/master/docs/modeling/extending-the-metadata-model.md)
 to understand how to extend DataHub for your own use cases.
+
+## Metaphor
+* Moto: "Data Mastery for the Whole Company"
+  "A modern data catalog powered by social data intelligence and AI - from the creators of DataHub"
+
+* Home page: https://metaphor.io/
+* Open source: no
+* Articles on the principles:
+  * The Grand Rewrite of DataHub,
+    by [Mars Lan](https://www.linkedin.com/in/marslan/) _et al_,
+    Sep. 2023 - https://metaphor.io/blog/the-grand-rewrite-of-datahub
+  * The Modern Metadata Platform (MMP): What, Why, and How?
+    by [Mars Lan](https://www.linkedin.com/in/marslan/) _et al_,
+    Jan. 2022 - https://metaphor.io/blog/the-modern-metadata-platform-what-why-and-how
+  * DataHub: A generalized metadata search & discovery tool,
+    by [Mars Lan](https://www.linkedin.com/in/marslan/) _et al_,
+    Aug. 2019 - https://engineering.linkedin.com/blog/2019/data-hub
 
 ## Open Metadata
 * Moto: "A Single place to Discover, Collaborate, and Get your data right"
