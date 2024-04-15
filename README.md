@@ -24,6 +24,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Hive Metastore](#hive-metastore)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
+    * [SQLGlot](#sqlglot)
     * [GitSchemas](#gitschemas)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -273,6 +274,29 @@ but has not been open sourced so far.
 # Tools
 
 ## SQL parsers
+
+### SQLGlot
+* Home page: https://sqlglot.com/sqlglot.html
+* GitHub page: https://github.com/tobymao/sqlglot
+* Companion of [SQLMesh](https://sqlmesh.com/)
+* SQLGlot is a no-dependency SQL parser, transpiler, optimizer, and engine.
+  + It can be used to format SQL or translate between
+    [21 different dialects](https://github.com/tobymao/sqlglot/blob/main/sqlglot/dialects/__init__.py)
+    like [DuckDB](https://duckdb.org/), [Presto](https://prestodb.io/) / [Trino](https://trino.io/),
+    [Spark](https://spark.apache.org/) / [Databricks](https://www.databricks.com/), [Snowflake](https://www.snowflake.com/en/),
+    and [BigQuery](https://cloud.google.com/bigquery/). It aims to read a wide variety of SQL inputs and output syntactically
+    and semantically correct SQL in the targeted dialects.
+    + It is a very comprehensive generic SQL parser with a robust
+      [test suite](https://github.com/tobymao/sqlglot/blob/main/tests/).
+      It is also quite [performant](https://sqlglot.com/sqlglot.html#benchmarks),
+      while being written purely in Python.
+    + You can easily [customize](https://sqlglot.com/sqlglot.html#custom-dialects) the parser,
+      [analyze](https://sqlglot.com/sqlglot.html#metadata) queries, traverse expression trees,
+      and programmatically [build](https://sqlglot.com/sqlglot.html#build-and-modify-sql) SQL.
+    + Syntax [errors](https://sqlglot.com/sqlglot.html#parser-errors) are highlighted
+      and dialect incompatibilities can warn or raise depending on configurations.
+      However, SQLGlot does not aim to be a SQL validator,
+      so it may fail to detect certain syntax errors.
 
 ### GitSchemas
 * GitHub/home page: https://github.com/tdoehmen/gitschemas
