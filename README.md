@@ -230,13 +230,15 @@ but has not been open sourced so far.
 * Home page: https://projectnessie.org/
 * GitHub: https://github.com/projectnessie/nessie
 * Open source: yes
-
-* Overview: transactional Catalog for Data Lakes
+* Documentation: https://projectnessie.org/nessie-latest/
+* Article from Apr. 2024, by [Ciro Greco](https://www.linkedin.com/in/cirogreco/):
+  https://towardsdatascience.com/write-audit-publish-for-data-lakes-in-pure-python-no-jvm-25fbd971b17d
+* Overview: Transactional catalog for data lakes
   + Git-inspired data version control
   + Cross-table transactions and visibility
   + Open data lake approach, supporting Hive, Spark, Dremio, AWS Athena, etc.
   + Works with Apache Iceberg tables
-  + Run as a docker image or fork it on GitHub
+  + Run as a Docker image or on Kubernetes
 
 ## Iceberg catalogs
 * Home page: https://iceberg.apache.org/concepts/catalog/
