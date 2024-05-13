@@ -196,7 +196,7 @@ the first person to discover the South Pole.
 capturing, managing and exchanging metadata between tools and platforms,
 no matter the vendor"
 * Organization behind it: Linux foundation
-* Home page: https://odpi.github.io/egeria-docs/
+* Home page: https://egeria-project.org/
 * GitHub: https://github.com/odpi/egeria
 * Open source: yes
 
