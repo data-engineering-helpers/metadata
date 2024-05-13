@@ -273,8 +273,8 @@ but has not been open sourced so far.
   * [Hive Metastore – Different Ways to Configure Hive Metastore](https://data-flair.training/blogs/apache-hive-metastore/)
 
 ## Apache XTable
-* Home page:
-* Git:
+* Home page: https://xtable.apache.org/
+* GitHub: https://github.com/apache/incubator-xtable
 * Open source: yes
 * Articles:
   * [Arxiv - The Data Lakehouse: Data Warehousing and More - 2023 - ](https://arxiv.org/pdf/2310.08697.pdf)
