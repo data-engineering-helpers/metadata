@@ -24,6 +24,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Hive Metastore](#hive-metastore)
   * [Apache XTable](#apache-xtable)
   * [OpenHouse](#openhouse)
+  * [Data.all](#data.all)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
     * [SQLGlot](#sqlglot)
@@ -308,6 +309,12 @@ but has not been open sourced so far.
   a suite of data services. Users can seamlessly define Tables, their schemas, and associated metadata
   declaratively within the catalog. OpenHouse reconciles the observed state of Tables with the desired
   state by orchestrating various data services.
+
+## Data.all
+* Home page: https://data-dot-all.github.io/dataall/ 
+* GitHub: https://github.com/data-dot-all/dataall
+* Open source: yes
+* Company behind: AWS
 
 # Tools
 
