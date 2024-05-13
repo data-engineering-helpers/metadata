@@ -23,6 +23,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Iceberg catalogs](#iceberg-catalogs)
   * [Hive Metastore](#hive-metastore)
   * [Apache XTable](#apache-xtable)
+  * [OpenHouse](#openhouse)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
     * [SQLGlot](#sqlglot)
@@ -285,6 +286,28 @@ but has not been open sourced so far.
       ([Dipankar Mazumdar on LinkedIn](https://www.linkedin.com/in/dipankar-mazumdar/),
       [Dipankar Mazumdar on Medium](https://dipankar-tnt.medium.com/))
     * Date: Dec. 2023
+
+## OpenHouse
+* Home page: https://www.openhousedb.org/
+* GitHub: https://github.com/linkedin/openhouse
+* Open source: yes
+* Articles:
+  * Open sourcing OpenHouse
+    * Author: [Sumedh Sakdeo](https://www.linkedin.com/in/sumedhsakdeo)
+    * Date: March 2024
+    * Link to the article:
+      https://www.linkedin.com/blog/engineering/open-source/open-sourcing-openhouse
+  * Taking Charge of Tables: Introducing OpenHouse for Big Data Management
+    * Author: [Sumedh Sakdeo](https://www.linkedin.com/in/sumedhsakdeo)
+    * Date: July 2023
+    * Link to the article:
+      https://www.linkedin.com/blog/engineering/data-management/taking-charge-of-tables--introducing-openhouse-for-big-data-mana
+* Company behind: LinkedIn
+* Overview: OpenHouse is an open source control plane designed for efficient management of tables
+  within open data lakehouse deployments. The control plane comprises a declarative catalog and
+  a suite of data services. Users can seamlessly define Tables, their schemas, and associated metadata
+  declaratively within the catalog. OpenHouse reconciles the observed state of Tables with the desired
+  state by orchestrating various data services.
 
 # Tools
 
