@@ -103,24 +103,25 @@ generate provenance metadata.
 
 ## DataHub
 * Moto: "A Metadata Platform for the Modern Data Stack"
+* Home page: https://datahubproject.io/
 * GitHub: https://github.com/linkedin/datahub
 * Company behind: LinkedIn
 * Open source: yes
-
-DataHub is an open-source metadata platform for the modern data stack.
-Read about the architectures of different metadata systems and
-[why DataHub excels](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained).
-Also read
-[the LinkedIn Engineering blog post](https://engineering.linkedin.com/blog/2019/data-hub),
-check out
-[the Strata presentation](https://speakerdeck.com/shirshanka/the-evolution-of-metadata-linkedins-journey-strata-nyc-2019)
-and watch
-[the Crunch Conference Talk](https://www.youtube.com/watch?v=OB-O0Y6OYDE).
-You should also visit
-[DataHub Architecture](https://github.com/linkedin/datahub/blob/master/docs/architecture/architecture.md)
-to get a better understanding of how DataHub is implemented and
-[DataHub Onboarding Guide](https://github.com/linkedin/datahub/blob/master/docs/modeling/extending-the-metadata-model.md)
-to understand how to extend DataHub for your own use cases.
+* Overview: DataHub is an open-source metadata platform for the modern data stack.
+* References:
+  * Read about the architectures of different metadata systems and
+  [why DataHub excels](https://engineering.linkedin.com/blog/2020/datahub-popular-metadata-architectures-explained).
+  * Also read
+  [the LinkedIn Engineering blog post](https://engineering.linkedin.com/blog/2019/data-hub),
+  * Check out
+  [the Strata presentation](https://speakerdeck.com/shirshanka/the-evolution-of-metadata-linkedins-journey-strata-nyc-2019)
+  * And watch
+  [the Crunch Conference Talk](https://www.youtube.com/watch?v=OB-O0Y6OYDE).
+  * You should also visit
+  [DataHub Architecture](https://github.com/linkedin/datahub/blob/master/docs/architecture/architecture.md)
+  to get a better understanding of how DataHub is implemented
+  * And [DataHub Onboarding Guide](https://github.com/linkedin/datahub/blob/master/docs/modeling/extending-the-metadata-model.md)
+  to understand how to extend DataHub for your own use cases.
 
 ## Metaphor
 * Moto: "Data Mastery for the Whole Company"
