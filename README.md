@@ -22,6 +22,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Nessie](#nessie)
   * [Iceberg catalogs](#iceberg-catalogs)
   * [Hive Metastore](#hive-metastore)
+  * [Apache XTable](#apache-xtable)
 * [Tools](#tools)
   * [SQL parsers](#sql-parsers)
     * [SQLGlot](#sqlglot)
@@ -48,6 +49,14 @@ these companies.
 * The anatomy of an active metadata platform,
   [Prukalpa](https://prukalpa.medium.com/), Aug. 2021:
   https://towardsdatascience.com/the-anatomy-of-an-active-metadata-platform-13473091ad0d
+* [Arxiv - The Data Lakehouse: Data Warehousing and More - 2023 - ](https://arxiv.org/pdf/2310.08697.pdf)
+  * Authors: Dipankar Mazumdar, Jason Hughes, JB Onofré (all working at Dremio at the time)
+  * Date: October 2023
+* [What is Apache XTable (formerly OneTable) — Interoperability for Apache Hudi, Iceberg & Delta Lake](https://dipankar-tnt.medium.com/onetable-interoperability-for-apache-hudi-iceberg-delta-lake-bb8b27dd288d)
+  * Author: Dipankar Mazumdar
+    ([Dipankar Mazumdar on LinkedIn](https://www.linkedin.com/in/dipankar-mazumdar/),
+    [Dipankar Mazumdar on Medium](https://dipankar-tnt.medium.com/))
+  * Date: Dec. 2023
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
 * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
@@ -92,7 +101,6 @@ generate provenance metadata.
 
 ## DataHub
 * Moto: "A Metadata Platform for the Modern Data Stack"
-
 * GitHub: https://github.com/linkedin/datahub
 * Company behind: LinkedIn
 * Open source: yes
@@ -115,7 +123,6 @@ to understand how to extend DataHub for your own use cases.
 ## Metaphor
 * Moto: "Data Mastery for the Whole Company"
   "A modern data catalog powered by social data intelligence and AI - from the creators of DataHub"
-
 * Home page: https://metaphor.io/
 * Open source: no
 * Articles on the principles:
@@ -131,7 +138,6 @@ to understand how to extend DataHub for your own use cases.
 
 ## Open Metadata
 * Moto: "A Single place to Discover, Collaborate, and Get your data right"
-
 * Home page: https://open-metadata.org/
 * GitHub: https://github.com/open-metadata/OpenMetadata
 * Organization behind: former employees of Uber and Hortonworks
@@ -189,7 +195,6 @@ the first person to discover the South Pole.
 * Moto: "Open metadata and governance for enterprises - automatically
 capturing, managing and exchanging metadata between tools and platforms,
 no matter the vendor"
-
 * Organization behind it: Linux foundation
 * Home page: https://odpi.github.io/egeria-docs/
 * GitHub: https://github.com/odpi/egeria
@@ -197,7 +202,6 @@ no matter the vendor"
 
 ## Databook
 * Moto: "Turning Big Data into Knowledge with Metadata at Uber"
-
 * Uber: https://eng.uber.com/databook/
 * Company behind: Uber
 * Open source: no
@@ -207,7 +211,6 @@ but has not been open sourced so far.
 
 ## Nemo
 * Moto: "Data discovery at Facebook"
-
 * Facebook: https://engineering.fb.com/2020/10/09/data-infrastructure/nemo/
 * Company behind: Facebook
 * Open source: no
@@ -222,7 +225,6 @@ but has not been open sourced so far.
 
 ## Metacat
 * Moto: "Making Big Data Discoverable and Meaningful at Netflix"
-
 * Medium: https://netflixtechblog.com/metacat-making-big-data-discoverable-and-meaningful-at-netflix-56fb36a53520
 * Company behind: Netflix
 * Open source: ?
@@ -235,18 +237,17 @@ but has not been open sourced so far.
 * Article from Apr. 2024, by [Ciro Greco](https://www.linkedin.com/in/cirogreco/):
   https://towardsdatascience.com/write-audit-publish-for-data-lakes-in-pure-python-no-jvm-25fbd971b17d
 * Overview: Transactional catalog for data lakes
-  + Git-inspired data version control
-  + Cross-table transactions and visibility
-  + Open data lake approach, supporting Hive, Spark, Dremio, AWS Athena, etc.
-  + Works with Apache Iceberg tables
-  + Run as a Docker image or on Kubernetes
+  * Git-inspired data version control
+  * Cross-table transactions and visibility
+  * Open data lake approach, supporting Hive, Spark, Dremio, AWS Athena, etc.
+  * Works with Apache Iceberg tables
+  * Run as a Docker image or on Kubernetes
 
 ## Iceberg catalogs
 * Home page: https://iceberg.apache.org/concepts/catalog/
 * Iceberg REST catalog OpenAPI specification: https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml
 * Open source: yes
 * Iceberg was initially contributed by Netflix
-
 * Overview: You may think of Iceberg as a format for managing data in a single table,
   but the Iceberg library needs a way to keep track of those tables by name. Tasks like
   creating, dropping, and renaming tables are the responsibility of a catalog. Catalogs
@@ -258,10 +259,10 @@ but has not been open sourced so far.
   Iceberg to load the tracked Iceberg tables. Iceberg also comes with a number of catalog
   implementations that are ready to use out of the box.
   This includes:
-  + REST - a server-side catalog that’s exposed through a REST API
-  + Hive Metastore - tracks namespaces and tables using a Hive metastore
-  + JDBC - tracks namespaces and tables in a simple JDBC database
-  + Nessie - a transactional catalog that tracks namespaces and tables in a database with git-like version control
+  * REST - a server-side catalog that’s exposed through a REST API
+  * Hive Metastore - tracks namespaces and tables using a Hive metastore
+  * JDBC - tracks namespaces and tables in a simple JDBC database
+  * Nessie - a transactional catalog that tracks namespaces and tables in a database with git-like version control
 
 ## Hive Metastore
 * Home page (part of the Hive documentation on the Apache wiki): https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore
@@ -269,7 +270,21 @@ but has not been open sourced so far.
 * Open source: yes
   [Apache wiki - AdminManual Metastore 3.0 Administration](https://cwiki.apache.org/confluence/display/Hive/AdminManual+Metastore+3.0+Administration)
 * Articles:
-  + [Hive Metastore – Different Ways to Configure Hive Metastore](https://data-flair.training/blogs/apache-hive-metastore/)
+  * [Hive Metastore – Different Ways to Configure Hive Metastore](https://data-flair.training/blogs/apache-hive-metastore/)
+
+## Apache XTable
+* Home page:
+* Git:
+* Open source: yes
+* Articles:
+  * [Arxiv - The Data Lakehouse: Data Warehousing and More - 2023 - ](https://arxiv.org/pdf/2310.08697.pdf)
+    * Authors: Dipankar Mazumdar, Jason Hughes, JB Onofré (all working at Dremio at the time)
+    * Date: October 2023
+  * [What is Apache XTable (formerly OneTable) — Interoperability for Apache Hudi, Iceberg & Delta Lake](https://dipankar-tnt.medium.com/onetable-interoperability-for-apache-hudi-iceberg-delta-lake-bb8b27dd288d)
+    * Author: Dipankar Mazumdar
+      ([Dipankar Mazumdar on LinkedIn](https://www.linkedin.com/in/dipankar-mazumdar/),
+      [Dipankar Mazumdar on Medium](https://dipankar-tnt.medium.com/))
+    * Date: Dec. 2023
 
 # Tools
 
