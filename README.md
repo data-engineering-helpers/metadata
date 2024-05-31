@@ -278,6 +278,9 @@ but has not been open sourced so far.
   * Hive Metastore - tracks namespaces and tables using a Hive metastore
   * JDBC - tracks namespaces and tables in a simple JDBC database
   * Nessie - a transactional catalog that tracks namespaces and tables in a database with git-like version control
+* Apache Iceberg - What Is It, _Diving Deep With A Guest Post_, May 2024,
+  by [Julien Hurault](https://www.linkedin.com/in/julienhuraultanalytics/):
+  https://seattledataguy.substack.com/p/apache-iceberg-what-is-it
 
 ## Hive Metastore
 * Home page (part of the Hive documentation on the Apache wiki): https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore
