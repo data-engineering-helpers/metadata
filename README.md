@@ -65,6 +65,7 @@ these companies.
   https://royondata.substack.com/p/the-race-to-own-open-data
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
+* [Material for the Data platform - Data management](https://github.com/data-engineering-helpers/data-management)
 * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
 * [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
