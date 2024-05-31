@@ -231,7 +231,6 @@ but has not been open sourced so far.
 
 ## Dataportal
 * Moto: "Democratizing Data at Airbnb"
-
 * Medium:
   https://medium.com/airbnb-engineering/democratizing-data-at-airbnb-852d76c51770
 * Company behind: Airbnb
