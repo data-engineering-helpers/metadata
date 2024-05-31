@@ -280,6 +280,9 @@ but has not been open sourced so far.
 * Apache Iceberg - What Is It, _Diving Deep With A Guest Post_, May 2024,
   by [Julien Hurault](https://www.linkedin.com/in/julienhuraultanalytics/):
   https://seattledataguy.substack.com/p/apache-iceberg-what-is-it
+* [GitHub - Tabular.io - Iceberg REST Docker image](https://github.com/tabular-io/iceberg-rest-image)
+  * Simple project to expose a catalog over REST using a Java catalog backend
+  * For instance, uses AWS Glue as a backend and exposes an Iceberg REST catalog
 
 ## Hive Metastore
 * Home page (part of the Hive documentation on the Apache wiki): https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore
