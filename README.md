@@ -59,6 +59,9 @@ these companies.
     ([Dipankar Mazumdar on LinkedIn](https://www.linkedin.com/in/dipankar-mazumdar/),
     [Dipankar Mazumdar on Medium](https://dipankar-tnt.medium.com/))
   * Date: Dec. 2023
+* The race to own open data, _The fight for metadata and access control in the Lakehouse_, May 2024,
+  by [Roy Hasson](https://www.linkedin.com/in/royhasson/):
+  https://royondata.substack.com/p/the-race-to-own-open-data
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
 * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
