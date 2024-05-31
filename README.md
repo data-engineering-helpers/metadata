@@ -8,6 +8,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
 * [Introduction](#introduction)
 * [Frameworks](#frameworks)
   * [DataHub](#datahub)
+  * [Acryl data](#acryl-data)
   * [Metaphor](#metaphor)
   * [Open Metadata](#open-metadata)
   * [Marquez](#marquez)
@@ -108,7 +109,7 @@ generate provenance metadata.
 * Moto: "A Metadata Platform for the Modern Data Stack"
 * Home page: https://datahubproject.io/
 * GitHub: https://github.com/linkedin/datahub
-* Company behind: LinkedIn
+* Companies behind: LinkedIn and [Acryl data (see below)](#acryl-data)
 * Open source: yes
 * Overview: DataHub is an open-source metadata platform for the modern data stack.
 * References:
@@ -125,6 +126,13 @@ generate provenance metadata.
   to get a better understanding of how DataHub is implemented
   * And [DataHub Onboarding Guide](https://github.com/linkedin/datahub/blob/master/docs/modeling/extending-the-metadata-model.md)
   to understand how to extend DataHub for your own use cases.
+
+## Acryl data
+* Moto: Bring clarity to your data
+* Home page: https://www.acryldata.io/
+* Open source: no
+* Overview: Acryl Cloud is a comprehensive metadata platform that joins a best-in-class catalog with data observability.
+  Built by the team behind [DataHub (see above)](#datahub).
 
 ## Metaphor
 * Moto: "Data Mastery for the Whole Company"
