@@ -20,6 +20,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
   * [Nemo](#nemo)
   * [Dataportal](#dataportal)
   * [Metacat](#metacat)
+  * [Delta UniForm](#delta-uniform)
   * [Nessie](#nessie)
   * [Iceberg catalogs](#iceberg-catalogs)
   * [Hive Metastore](#hive-metastore)
@@ -242,6 +243,16 @@ but has not been open sourced so far.
 * Medium: https://netflixtechblog.com/metacat-making-big-data-discoverable-and-meaningful-at-netflix-56fb36a53520
 * Company behind: Netflix
 * Open source: ?
+
+## Delta UniForm
+* Home page:
+* Documentation: https://docs.delta.io/latest/delta-uniform.html
+* Open source: yes
+* Articles:
+  * Delta Lake Universal Format (UniForm) for Iceberg compatibility, now Generally Available (GA):
+  * Link to the article: https://www.databricks.com/blog/delta-lake-universal-format-uniform-iceberg-compatibility-now-ga
+  * Authors: Jonathan Brito, Fred Liu and Susan Pierce
+  * Date: June 2024
 
 ## Nessie
 * Home page: https://projectnessie.org/
