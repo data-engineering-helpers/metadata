@@ -5,6 +5,8 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
 * [Metadata, metadatalake, Modern Metadata Stack (MMS)](#metadata-metadatalake-modern-metadata-stack-mms)
 * [Overview](#overview)
 * [References](#references)
+* [Articles](#articles)
+  * [The Art of Discoverability](#the-art-of-discoverability)
 * [Introduction](#introduction)
 * [Frameworks](#frameworks)
   * [DataHub](#datahub)
@@ -72,9 +74,18 @@ these companies.
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
 * [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
+  * [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+
+## Articles
+
+### The Art of Discoverability
+* Title: The Art of Discoverability and Reverse Engineering User Happiness
+* Authors: Animesh Kumar and Travis Thompson
+* Date: Dec. 2024
+* Link to the article:
+  https://moderndata101.substack.com/p/the-art-of-discoverability-and-reverse
 
 # Introduction
 In the past 10 years, as the modern data stack has matured and become
