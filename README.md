@@ -5,8 +5,9 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
 * [Metadata, metadatalake, Modern Metadata Stack (MMS)](#metadata-metadatalake-modern-metadata-stack-mms)
 * [Overview](#overview)
 * [References](#references)
-* [Articles](#articles)
-  * [The Art of Discoverability](#the-art-of-discoverability)
+  * [Articles](#articles)
+    * [From Data Catalog to Data Marketplace](#from-data-catalog-to-data-marketplace)
+    * [The Art of Discoverability](#the-art-of-discoverability)
 * [Introduction](#introduction)
 * [Frameworks](#frameworks)
   * [DataHub](#datahub)
@@ -68,6 +69,7 @@ these companies.
   https://royondata.substack.com/p/the-race-to-own-open-data
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
+* [Material for the Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
 * [Material for the Data platform - Data management](https://github.com/data-engineering-helpers/data-management)
 * [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
 * [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
@@ -79,6 +81,14 @@ these companies.
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
 ## Articles
+
+### From Data Catalog to Data Marketplace
+* Title: From Data Catalog 📚 to Data Marketplace 🛒
+* Author: Jochen Christ
+  ([Jochen Christ on LinkedIn](https://www.linkedin.com/in/jochenchrist/))
+* Date: Jan. 2025
+* Link to the LinkedIn post:
+  https://www.linkedin.com/posts/jochenchrist_datamarketplace-datamarketplace-dataproducts-activity-7281953125140246528-BExu/
 
 ### The Art of Discoverability
 * Title: The Art of Discoverability and Reverse Engineering User Happiness
