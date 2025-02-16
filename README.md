@@ -4,6 +4,7 @@ Metadata, metadatalake, Modern Metadata Stack (MMS)
 # Table of Content (ToC)
 * [Metadata, metadatalake, Modern Metadata Stack (MMS)](#metadata-metadatalake-modern-metadata-stack-mms)
 * [Overview](#overview)
+  * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
 * [References](#references)
   * [Articles](#articles)
     * [From Data Catalog to Data Marketplace](#from-data-catalog-to-data-marketplace)
@@ -49,6 +50,17 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
+## Other repositories of Data Engineering helpers
+* [Data Engineering Helpers - Knowledge Sharing - Data products](https://github.com/data-engineering-helpers/data-products)
+* [Data Engineering Helpers - Knowledge Sharing - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
+* [Data Engineering Helpers - Knowledge Sharing - Data quality](https://github.com/data-engineering-helpers/data-quality)
+* [Data Engineering Helpers - Knowledge Sharing - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles)
+* [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle)
+* [Data Engineering Helpers - Knowledge Sharing - Data management](https://github.com/data-engineering-helpers/data-management)
+* [Data Engineering Helpers - Knowledge Sharing - Data lakehouse](https://github.com/data-engineering-helpers/data-lakehouse)
+* [Data Engineering Helpers - Knowledge Sharing - Data pipeline deployment](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+* [Data Engineering Helpers - Knowledge Sharing - Semantic layer](https://github.com/data-engineering-helpers/semantic-layer)
+
 # References
 * The Rise of the Metadata Lake,
   [Prukalpa](https://prukalpa.medium.com/), Jun. 2021:
@@ -69,16 +81,6 @@ these companies.
   https://royondata.substack.com/p/the-race-to-own-open-data
 * DataHub: A generalized metadata search & discovery tool, Mars Lan, Aug. 2019:
   https://engineering.linkedin.com/blog/2019/data-hub
-* [Material for the Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
-* [Material for the Data platform - Data management](https://github.com/data-engineering-helpers/data-management)
-* [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
-* [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts)
-* [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
-* [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
-* [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  * [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
-* Specifications/principles for a
-  [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
 ## Articles
 
